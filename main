@@ -2,7 +2,8 @@
 !pip install telegram
 import pandas as pd
 import telebot
-bot = telebot.TeleBot('7626891328:AAEVk8IujThOjUB1up4fTu2OQCpKZqeXhUk')
+application = Application.builder().token(os.environ.get("TOKEN")).build()
+bot = telebot.TeleBot(application)
 global passed
 раssed = 0
 @bot.message_handler(commands=["начало"])

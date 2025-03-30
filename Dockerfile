@@ -7,6 +7,7 @@ WORKDIR /app
 
 COPY requirements.txt /app/requirements.txt
 COPY main.py /app/main.py
+COPY project10.csv /app/project10.csv
 
 RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
 

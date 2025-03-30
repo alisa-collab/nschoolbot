@@ -38,7 +38,7 @@ def recieve_members(message):
     global class_num
     class_num = str(*message.text.split('\n')[1:2:])
     if class_num in ['10']:
-      t_name = "/content/project" + str(class_num) + ".csv"
+      t_name = "/app/project" + str(class_num) + ".csv"
       table = pd.read_csv(t_name)
       global members
       members = {}

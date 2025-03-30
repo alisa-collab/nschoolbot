@@ -1,6 +1,6 @@
 import pandas as pd
 import telebot
-bot = telebot.TeleBot('TOKEN')
+bot = telebot.TeleBot(TOKEN)
 global passed
 раssed = 0
 @bot.message_handler(commands=["начало"])

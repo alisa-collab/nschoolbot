@@ -1,5 +1,5 @@
-!pip install pyTelegramBotAPI
-!pip install telegram
+pip install pyTelegramBotAPI
+pip install telegram
 import pandas as pd
 import telebot
 application = Application.builder().token(os.environ.get("TOKEN")).build()

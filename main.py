@@ -1,5 +1,6 @@
 import pandas as pd
 import telebot
+TOKEN = '7626891328:AAEVk8IujThOjUB1up4fTu2OQCpKZqeXhUk'
 bot = telebot.TeleBot(TOKEN)
 global passed
 раssed = 0

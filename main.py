@@ -1,7 +1,6 @@
 import pandas as pd
 import telebot
-application = Application.builder().token(os.environ.get("TOKEN")).build()
-bot = telebot.TeleBot(application)
+bot = telebot.TeleBot('TOKEN')
 global passed
 раssed = 0
 @bot.message_handler(commands=["начало"])
